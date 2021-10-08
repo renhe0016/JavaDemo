@@ -52,7 +52,7 @@ public class HasSafe {
         this.parameterObject = parameterObject;
         this.pageBounds = pageBounds;
         this.typeHandlerRegistry = mappedStatement.getConfiguration().getTypeHandlerRegistry();
-
+this.pageBounds = pageBounds;
         init();
     }
 
