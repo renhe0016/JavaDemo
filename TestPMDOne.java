@@ -21,7 +21,7 @@ public class TestPMDOne {
 	}
 
      public void sampleEmptySynchronizedBlock(){
-        synchronized (this) { //高危：EmptySynchronizedBlock
+        synchronized (this) { //高危1：EmptySynchronizedBlock
             // empty!
         }
     }
