@@ -2,7 +2,7 @@ public class bcaJavaCase {
     private static final Integer mCurDetectCount = Integer.valueOf(0);
 
     protected void sampleSynchronizationOnStringOrBoxedCheck() {
-        /**更新检测的次数*/
+        /**更新检测的次数1*/
         synchronized (mCurDetectCount) {  //高危SynchronizationOnStringOrBoxedCheck
             mCurDetectCount++;
             System.out.println("detectError检测失败 更新检测次数：" + mCurDetectCount);
